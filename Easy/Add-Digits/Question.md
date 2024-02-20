@@ -2,8 +2,6 @@
 
 Given an integer num, repeatedly add all its digits until the result has only one digit, and return it.<br>
 
- 
-
 Example 1:<br>
 Input: num = 38<br>
 Output: 2<br>
