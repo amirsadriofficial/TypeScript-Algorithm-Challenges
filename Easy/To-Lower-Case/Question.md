@@ -2,8 +2,6 @@
 
 Given a string s, return the string after replacing every uppercase letter with the same lowercase letter.<br>
 
- 
-
 Example 1:<br>
 Input: s = "Hello"<br>
 Output: "hello"<br>
