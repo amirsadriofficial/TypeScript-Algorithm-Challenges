@@ -1,3 +1,3 @@
 function toLowerCase(s: string): string {
-    return s.toLowerCase()
-};
+  return s.toLowerCase();
+}
