@@ -7,9 +7,11 @@ You must write an algorithm with O(log n) runtime complexity.<br>
 Example 1:<br>
 Input: nums = [1,3,5,6], target = 5<br>
 Output: 2<br>
+
 Example 2:<br>
 Input: nums = [1,3,5,6], target = 2<br>
 Output: 1<br>
+
 Example 3:<br>
 Input: nums = [1,3,5,6], target = 7<br>
 Output: 4<br>
