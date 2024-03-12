@@ -3,7 +3,6 @@
 Given a valid (IPv4) IP address, return a defanged version of that IP address.<br>
 
 A defanged IP address replaces every period "." with "[.]".<br>
- 
 
 Example 1:<br>
 Input: address = "1.1.1.1"<br>
