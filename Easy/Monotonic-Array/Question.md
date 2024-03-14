@@ -6,8 +6,6 @@ An array nums is monotone increasing if for all i <= j, nums[i] <= nums[j]. An a
 
 Given an integer array nums, return true if the given array is monotonic, or false otherwise.<br>
 
- 
-
 Example 1:<br>
 Input: nums = [1,2,2,3]<br>
 Output: true<br>
