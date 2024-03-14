@@ -9,9 +9,11 @@ Given an integer array nums, return true if the given array is monotonic, or fal
 Example 1:<br>
 Input: nums = [1,2,2,3]<br>
 Output: true<br>
+
 Example 2:<br>
 Input: nums = [6,5,4,4]<br>
 Output: true<br>
+
 Example 3:<br>
 Input: nums = [1,3,2]<br>
 Output: false<br>
