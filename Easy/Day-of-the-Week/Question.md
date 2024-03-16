@@ -9,9 +9,11 @@ Return the answer as one of the following values {"Sunday", "Monday", "Tuesday",
 Example 1:<br>
 Input: day = 31, month = 8, year = 2019<br>
 Output: "Saturday"<br>
+
 Example 2:<br>
 Input: day = 18, month = 7, year = 1999<br>
 Output: "Sunday"<br>
+
 Example 3:<br>
 Input: day = 15, month = 8, year = 1993<br>
 Output: "Sunday"<br>
