@@ -11,6 +11,7 @@ Explanation: The array ans is built as follows: <br>
 ans = [nums[nums[0]], nums[nums[1]], nums[nums[2]], nums[nums[3]], nums[nums[4]], nums[nums[5]]]<br>
 = [nums[0], nums[2], nums[1], nums[5], nums[3], nums[4]]<br>
 = [0,1,2,4,5,3]<br>
+
 Example 2:<br>
 Input: nums = [5,0,1,2,3,4]<br>
 Output: [4,5,0,1,2,3]<br>
