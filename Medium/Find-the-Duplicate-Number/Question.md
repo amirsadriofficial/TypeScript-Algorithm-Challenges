@@ -6,8 +6,6 @@ There is only one repeated number in nums, return this repeated number.<br>
 
 You must solve the problem without modifying the array nums and uses only constant extra space.<br>
 
- 
-
 Example 1:<br>
 Input: nums = [1,3,4,2,2]<br>
 Output: 2<br>
