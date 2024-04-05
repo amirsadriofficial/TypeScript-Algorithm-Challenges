@@ -6,8 +6,6 @@ A vertical area is an area of fixed-width extending infinitely along the y-axis 
 
 Note that points on the edge of a vertical area are not considered included in the area.<br>
 
- 
-
 Example 1:<br>
 Input: points = [[8,7],[9,9],[7,4],[9,7]]<br>
 Output: 1<br>
