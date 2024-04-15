@@ -16,13 +16,11 @@ type TreeNode = any;
  */
 
 const sumNode = (node: TreeNode, prefix: number) => {
-    return (!node.left && !node.right)
-        ? prefix * 10 + node.val
-        : (
-            (node.left ? sumNode(node.left, prefix * 10 + node.val) : 0) +
-            (node.right ? sumNode(node.right, prefix * 10 + node.val) : 0)
-        );
-}
-function sumNumbers(root: TreeNode | null): number {
-    return sumNode(root, 0);
+  return !node.left && !node.right
+    ? prefix * 10 + node.val
+    : (node.left ? sumNode(node.left, prefix * 10 + node.val) : 0) +
+        (node.right ? sumNode(node.right, prefix * 10 + node.val) : 0);
 };
+function sumNumbers(root: TreeNode | null): number {
+  return sumNode(root, 0);
+}
