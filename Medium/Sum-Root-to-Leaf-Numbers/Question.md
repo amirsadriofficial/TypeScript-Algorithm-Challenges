@@ -16,6 +16,7 @@ Explanation:<br>
 The root-to-leaf path 1->2 represents the number 12.<br>
 The root-to-leaf path 1->3 represents the number 13.<br>
 Therefore, sum = 12 + 13 = 25.<br>
+
 Example 2:<br>
 Input: root = [4,9,0,5,1]<br>
 Output: 1026<br>
