@@ -5,7 +5,6 @@ An integer n is strictly palindromic if, for every base b between 2 and n - 2 (i
 Given an integer n, return true if n is strictly palindromic and false otherwise.<br>
 
 A string is palindromic if it reads the same forward and backward.<br>
- 
 
 Example 1:<br>
 Input: n = 9<br>
