@@ -2,8 +2,6 @@
 
 Given a string s, return the longest palindromic substring in s.<br>
 
- 
-
 Example 1:<br>
 Input: s = "babad"<br>
 Output: "bab"<br>
