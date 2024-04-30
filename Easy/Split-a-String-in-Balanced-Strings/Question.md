@@ -7,8 +7,6 @@ Given a balanced string s, split it into some number of substrings such that:<br
 Each substring is balanced.<br>
 Return the maximum number of balanced strings you can obtain.<br>
 
- 
-
 Example 1:<br>
 Input: s = "RLRRLLRLRL"<br>
 Output: 4<br>
