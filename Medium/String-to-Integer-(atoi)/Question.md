@@ -23,6 +23,7 @@ The underlined characters are what is read in and the caret is the current reade
 Step 1: "42" (no characters read because there is no leading whitespace)<br>
 Step 2: "42" (no characters read because there is neither a '-' nor '+')<br>
 Step 3: "42" ("42" is read in)<br>
+
 Example 2:<br>
 Input: s = " -042"<br>
 Output: -42<br>
@@ -30,6 +31,7 @@ Explanation:<br>
 Step 1: " -042" (leading whitespace is read and ignored)<br>
 Step 2: " -042" ('-' is read, so the result should be negative)<br>
 Step 3: " -042" ("042" is read in, leading zeros ignored in the result)<br>
+
 Example 3:<br>
 Input: s = "1337c0d3"<br>
 Output: 1337<br>
@@ -37,6 +39,7 @@ Explanation:<br>
 Step 1: "1337c0d3" (no characters read because there is no leading whitespace)<br>
 Step 2: "1337c0d3" (no characters read because there is neither a '-' nor '+')<br>
 Step 3: "1337c0d3" ("1337" is read in; reading stops because the next character is a non-digit)<br>
+
 Example 4:<br>
 Input: s = "0-1"<br>
 Output: 0<br>
@@ -44,6 +47,7 @@ Explanation:<br>
 Step 1: "0-1" (no characters read because there is no leading whitespace)<br>
 Step 2: "0-1" (no characters read because there is neither a '-' nor '+')<br>
 Step 3: "0-1" ("0" is read in; reading stops because the next character is a non-digit)<br>
+
 Example 5:<br>
 Input: s = "words and 987"<br>
 Output: 0<br>
