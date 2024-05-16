@@ -1,7 +1,6 @@
 3. **Longest Substring Without Repeating Characters**
 
 Given a string s, find the length of the longest substring without repeating characters.<br>
- 
 
 Example 1:<br>
 Input: s = "abcabcbb"<br>
@@ -20,5 +19,5 @@ Explanation: The answer is "wke", with the length of 3.<br>
 Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.<br>
 
 Constraints:<br>
-0 <= s.length <= 5 * 104<br>
+0 <= s.length <= 5 \* 104<br>
 s consists of English letters, digits, symbols and spaces.
