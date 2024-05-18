@@ -8,8 +8,6 @@ Return the maximum amount of water a container can store.<br>
 
 Notice that you may not slant the container.<br>
 
- 
-
 Example 1:<br>
 Input: height = [1,8,6,2,5,4,8,3,7]<br>
 Output: 49<br>
