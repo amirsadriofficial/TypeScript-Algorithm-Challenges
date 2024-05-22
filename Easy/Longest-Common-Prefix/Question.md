@@ -1,27 +1,19 @@
-14. Longest Common Prefix
-Solved
-Easy
-Topics
-Companies
-Write a function to find the longest common prefix string amongst an array of strings.
+14. **Longest Common Prefix**
 
-If there is no common prefix, return an empty string "".
+Write a function to find the longest common prefix string amongst an array of strings.<br>
 
- 
+If there is no common prefix, return an empty string "".<br>
 
-Example 1:
+Example 1:<br>
+Input: strs = ["flower","flow","flight"]<br>
+Output: "fl"<br>
 
-Input: strs = ["flower","flow","flight"]
-Output: "fl"
-Example 2:
+Example 2:<br>
+Input: strs = ["dog","racecar","car"]<br>
+Output: ""<br>
+Explanation: There is no common prefix among the input strings.<br>
 
-Input: strs = ["dog","racecar","car"]
-Output: ""
-Explanation: There is no common prefix among the input strings.
- 
-
-Constraints:
-
-1 <= strs.length <= 200
-0 <= strs[i].length <= 200
+Constraints:<br>
+1 <= strs.length <= 200<br>
+0 <= strs[i].length <= 200<br>
 strs[i] consists of only lowercase English letters.
