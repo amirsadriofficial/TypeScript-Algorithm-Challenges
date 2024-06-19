@@ -1,5 +1,5 @@
 function isValid(s: string): boolean {
-    let openBracketsStack: any = []
+    let openBracketsStack: any = [];
     const bracketsMap = {
         ')': '(',
         ']': '[',
@@ -10,9 +10,9 @@ function isValid(s: string): boolean {
         if (['(', '[', '{'].includes(currentBracket)) {
             openBracketsStack.push(currentBracket)
         } else if (openBracketsStack.pop() !== bracketsMap[currentBracket]) {
-            return false
+            return false;
         }
     }
 
-    return !openBracketsStack.length
+    return !openBracketsStack.length;
 };
