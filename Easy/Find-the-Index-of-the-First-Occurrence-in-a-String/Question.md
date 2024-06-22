@@ -9,6 +9,7 @@ Input: haystack = "sadbutsad", needle = "sad"<br>
 Output: 0<br>
 Explanation: "sad" occurs at index 0 and 6.<br>
 The first occurrence is at index 0, so we return 0.<br>
+
 Example 2:<br>
 Input: haystack = "leetcode", needle = "leeto"<br>
 Output: -1<br>
