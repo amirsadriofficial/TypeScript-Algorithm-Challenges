@@ -9,16 +9,16 @@ class ListNode {
 }
 
 function removeNthFromEnd(head: ListNode | null, n: number): ListNode | null {
-    function findLength(head: ListNode | null): number {
-      let count = 0;
-      if (head === null) return count;
-      let curr: any = head;
-      while (curr !== null) {
-        count++;
-        curr = curr.next;
-      }
-      return count;
+  function findLength(head: ListNode | null): number {
+    let count = 0;
+    if (head === null) return count;
+    let curr: any = head;
+    while (curr !== null) {
+      count++;
+      curr = curr.next;
     }
+    return count;
+  }
   let length = findLength(head);
   let i = 0,
     traverseTill = length - n - 1;
@@ -30,5 +30,4 @@ function removeNthFromEnd(head: ListNode | null, n: number): ListNode | null {
   }
   curr.next = curr.next.next;
   return head;
-
 }
