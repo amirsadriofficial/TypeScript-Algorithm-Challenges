@@ -29,3 +29,5 @@ Each problem is organized within its respective difficulty folder as follows:
 │   │   │   ├── Question.md
 │   │   │   ├── Answer.ts
 ```
+## Contributing
+Contributions are welcome! If you'd like to add a solution, improve the existing code, or fix bugs, feel free to submit a pull request. Please ensure your code follows the repository's structure and is well-documented.
