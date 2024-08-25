@@ -6,13 +6,13 @@ LeetCode is a popular platform for practicing coding problems, ranging from easy
 ## Folder Structure
 
 This repository is organized into three main folders based on the difficulty of the problems:
-- Easy/: Contains solutions for easy-level problems.
-- Medium/: Contains solutions for medium-level problems.
-- Hard/: Contains solutions for hard-level problems.
+- **_Easy_**: Contains solutions for easy-level problems.
+- **_Medium_**: Contains solutions for medium-level problems.
+- **_Hard_**: Contains solutions for hard-level problems.
 
 Each problem is organized within its respective difficulty folder as follows:
-- Question.md: Contains the problem statement and any additional details or constraints.
-- Answer.ts: Contains the TypeScript solution for the problem.
+- **_Question.md_**: Contains the problem statement and any additional details or constraints.
+- **_Answer.ts_**: Contains the TypeScript solution for the problem.
 
 ```bash
 .
